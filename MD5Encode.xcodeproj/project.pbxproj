@@ -1,0 +1,264 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7FACF40C154088D90089EAED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FACF40B154088D90089EAED /* UIKit.framework */; };
+		7FACF40E154088D90089EAED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FACF40D154088D90089EAED /* Foundation.framework */; };
+		7FACF410154088D90089EAED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FACF40F154088D90089EAED /* CoreGraphics.framework */; };
+		7FACF416154088D90089EAED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7FACF414154088D90089EAED /* InfoPlist.strings */; };
+		7FACF418154088D90089EAED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FACF417154088D90089EAED /* main.m */; };
+		7FACF41C154088D90089EAED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FACF41B154088D90089EAED /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7FACF407154088D90089EAED /* MD5Encode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MD5Encode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FACF40B154088D90089EAED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7FACF40D154088D90089EAED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7FACF40F154088D90089EAED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7FACF413154088D90089EAED /* MD5Encode-Info.plist */ = {isa = PBXFileReference; path = "MD5Encode-Info.plist"; sourceTree = "<group>"; };
+		7FACF415154088D90089EAED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7FACF417154088D90089EAED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7FACF419154088D90089EAED /* MD5Encode-Prefix.pch */ = {isa = PBXFileReference; path = "MD5Encode-Prefix.pch"; sourceTree = "<group>"; };
+		7FACF41A154088D90089EAED /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		7FACF41B154088D90089EAED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FACF404154088D90089EAED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FACF40C154088D90089EAED /* UIKit.framework in Frameworks */,
+				7FACF40E154088D90089EAED /* Foundation.framework in Frameworks */,
+				7FACF410154088D90089EAED /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FACF3FC154088D80089EAED = {
+			isa = PBXGroup;
+			children = (
+				7FACF411154088D90089EAED /* MD5Encode */,
+				7FACF40A154088D90089EAED /* Frameworks */,
+				7FACF408154088D90089EAED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FACF408154088D90089EAED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FACF407154088D90089EAED /* MD5Encode.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FACF40A154088D90089EAED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FACF40B154088D90089EAED /* UIKit.framework */,
+				7FACF40D154088D90089EAED /* Foundation.framework */,
+				7FACF40F154088D90089EAED /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7FACF411154088D90089EAED /* MD5Encode */ = {
+			isa = PBXGroup;
+			children = (
+				7FACF41A154088D90089EAED /* AppDelegate.h */,
+				7FACF41B154088D90089EAED /* AppDelegate.m */,
+				7FACF412154088D90089EAED /* Supporting Files */,
+			);
+			path = MD5Encode;
+			sourceTree = "<group>";
+		};
+		7FACF412154088D90089EAED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FACF413154088D90089EAED /* MD5Encode-Info.plist */,
+				7FACF414154088D90089EAED /* InfoPlist.strings */,
+				7FACF417154088D90089EAED /* main.m */,
+				7FACF419154088D90089EAED /* MD5Encode-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FACF406154088D90089EAED /* MD5Encode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FACF41F154088D90089EAED /* Build configuration list for PBXNativeTarget "MD5Encode" */;
+			buildPhases = (
+				7FACF403154088D90089EAED /* Sources */,
+				7FACF404154088D90089EAED /* Frameworks */,
+				7FACF405154088D90089EAED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MD5Encode;
+			productName = MD5Encode;
+			productReference = 7FACF407154088D90089EAED /* MD5Encode.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FACF3FE154088D80089EAED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Food Sciences, School of Biosciences, University of Nottingham";
+			};
+			buildConfigurationList = 7FACF401154088D80089EAED /* Build configuration list for PBXProject "MD5Encode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7FACF3FC154088D80089EAED;
+			productRefGroup = 7FACF408154088D90089EAED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FACF406154088D90089EAED /* MD5Encode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FACF405154088D90089EAED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FACF416154088D90089EAED /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FACF403154088D90089EAED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FACF418154088D90089EAED /* main.m in Sources */,
+				7FACF41C154088D90089EAED /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7FACF414154088D90089EAED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FACF415154088D90089EAED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FACF41D154088D90089EAED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7FACF41E154088D90089EAED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FACF420154088D90089EAED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MD5Encode/MD5Encode-Prefix.pch";
+				INFOPLIST_FILE = "MD5Encode/MD5Encode-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7FACF421154088D90089EAED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MD5Encode/MD5Encode-Prefix.pch";
+				INFOPLIST_FILE = "MD5Encode/MD5Encode-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FACF401154088D80089EAED /* Build configuration list for PBXProject "MD5Encode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FACF41D154088D90089EAED /* Debug */,
+				7FACF41E154088D90089EAED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FACF41F154088D90089EAED /* Build configuration list for PBXNativeTarget "MD5Encode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FACF420154088D90089EAED /* Debug */,
+				7FACF421154088D90089EAED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FACF3FE154088D80089EAED /* Project object */;
+}
